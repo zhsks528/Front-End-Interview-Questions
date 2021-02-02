@@ -1,4 +1,56 @@
-## Javascript Interview Questions
+# Javascript Interview Questions
+
+## 목차
+
+1. [이벤트 위임에 대해 설명하세요](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q1-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%9C%84%EC%9E%84%EC%97%90-%EB%8C%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+2. [이벤트 버블링에 대해 설명하세요](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q2-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81%EC%97%90-%EB%8C%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+3. [이벤트 캡처링에 대해 설명하세요](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q2-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B2%84%EB%B8%94%EB%A7%81%EC%97%90-%EB%8C%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+4. [this가 Javascript에서 어떻게 작동하는 지 설명하세요](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q4-this%EA%B0%80-javascript%EC%97%90%EC%84%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94-%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+5. [프로토타입 상속이 어떻게 작동하는지 설명하세요](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q5-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EC%83%81%EC%86%8D%EC%9D%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+6. [AMD vs CommonJS에 대해 어떻게 생각하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q6-amd-vs-commonjs%EC%97%90-%EB%8C%80%ED%95%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%83%9D%EA%B0%81%ED%95%98%EB%82%98%EC%9A%94)
+7. [다음이 IIFE로 작동하지 않는 이유를 설명하세요: function foo(){ }();를 IIFE로 만들기 위해서는 무엇을 바꿔야하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q7-%EB%8B%A4%EC%9D%8C%EC%9D%B4-iife%EB%A1%9C-%EC%9E%91%EB%8F%99%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%A5%BC-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94-function-foo-%EB%A5%BC-iife%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%9C%84%ED%95%B4%EC%84%9C%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%B0%94%EA%BF%94%EC%95%BC%ED%95%98%EB%82%98%EC%9A%94)
+8. [null, undefined, undeclared의 차이점은 무엇인가요? 어떻게 이 상태들에 대한 확인을 할 것인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q8-null-undefined-undeclared%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%9D%B4-%EC%83%81%ED%83%9C%EB%93%A4%EC%97%90-%EB%8C%80%ED%95%9C-%ED%99%95%EC%9D%B8%EC%9D%84-%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94)
+9. [클로저는 무엇이며, 어떻게/왜 사용하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q9-%ED%81%B4%EB%A1%9C%EC%A0%80%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%A9%B0-%EC%96%B4%EB%96%BB%EA%B2%8C%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98%EC%9A%94)
+10. [Curry 함수의 예를 들어 줄 수 있나요? 그리고 이 문법은 어떤 이점을 가지고 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q10-curry-%ED%95%A8%EC%88%98%EC%9D%98-%EC%98%88%EB%A5%BC-%EB%93%A4%EC%96%B4-%EC%A4%84-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B4-%EB%AC%B8%EB%B2%95%EC%9D%80-%EC%96%B4%EB%96%A4-%EC%9D%B4%EC%A0%90%EC%9D%84-%EA%B0%80%EC%A7%80%EA%B3%A0-%EC%9E%88%EB%82%98%EC%9A%94)
+11. [forEach 루프와 map() 루프 사이의 주요 차이점을 설명할 수 있나요? 왜 둘 중 하나를 선택할 것인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q11-foreach-%EB%A3%A8%ED%94%84%EC%99%80-map-%EB%A3%A8%ED%94%84-%EC%82%AC%EC%9D%B4%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%A0-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94-%EC%99%9C-%EB%91%98-%EC%A4%91-%ED%95%98%EB%82%98%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94)
+12. [익명 함수의 일반적인 사용 사례는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q12-%EC%9D%B5%EB%AA%85-%ED%95%A8%EC%88%98%EC%9D%98-%EC%9D%BC%EB%B0%98%EC%A0%81%EC%9D%B8-%EC%82%AC%EC%9A%A9-%EC%82%AC%EB%A1%80%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+13. [호스트 객채와 네이티브(내장, 빌트인) 객체의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q13-%ED%98%B8%EC%8A%A4%ED%8A%B8-%EA%B0%9D%EC%B1%84%EC%99%80-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EB%82%B4%EC%9E%A5-%EB%B9%8C%ED%8A%B8%EC%9D%B8-%EA%B0%9D%EC%B2%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+14. [function Person(){}, var person = Person(), var person = new Person() 의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q14-function-person-var-person--person-var-person--new-person-%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+15. [call과 apply의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q15-call%EA%B3%BC-apply%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+16. [Funtion.prototype.bind에 대해 설명하세요](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q16-functionprototypebind%EC%97%90-%EB%8C%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+17. [언제 document.write()를 사용하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q17-%EC%96%B8%EC%A0%9C-documentwrite%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98%EC%9A%94)
+18. [Feature detection, Feature inference의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q18-feature-detection-feature-inference%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+19. [AJAX에 대해 가능한 한 자세히 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q19-ajax%EC%97%90-%EB%8C%80%ED%95%B4-%EA%B0%80%EB%8A%A5%ED%95%9C-%ED%95%9C-%EC%9E%90%EC%84%B8%ED%9E%88-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+20. [AJAX를 사용하는 것의 장단점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q20-ajax%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+21. [JSONP가 어떻게 동작하는지(그리고 Ajax와 어떻게 다른지)를 설명하세요](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q21-jsonp%EA%B0%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EC%A7%80%EA%B7%B8%EB%A6%AC%EA%B3%A0-ajax%EC%99%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8B%A4%EB%A5%B8%EC%A7%80%EB%A5%BC-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+22. [Javascript 템플릿을 사용한 적이 있나요? 사용해봤다면, 어떤 라이브러리를 사용했나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q22-javascript-%ED%85%9C%ED%94%8C%EB%A6%BF%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%A0%81%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B4%A4%EB%8B%A4%EB%A9%B4-%EC%96%B4%EB%96%A4-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%96%88%EB%82%98%EC%9A%94)
+23. [호이스팅에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q23-%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+24. [속성(Attribute)와 속성(Property)의 차이가 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q24-%EC%86%8D%EC%84%B1attribute%EC%99%80-%EC%86%8D%EC%84%B1property%EC%9D%98-%EC%B0%A8%EC%9D%B4%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+25. [내장 Javascript 객체를 확장하는 것이 좋은 생각이 아닌 이유는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q25-%EB%82%B4%EC%9E%A5-javascript-%EA%B0%9D%EC%B2%B4%EB%A5%BC-%ED%99%95%EC%9E%A5%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B4-%EC%A2%8B%EC%9D%80-%EC%83%9D%EA%B0%81%EC%9D%B4-%EC%95%84%EB%8B%8C-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+26. [document load 이벤트와 document DOMContentLoaded 이벤트의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q27-document-load-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%99%80-document-domcontentloaded-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+27. [왜 load 이벤트와 같은 것을 사용하나요? 이 이벤트에는 단점이 있나요? 다른 대안을 알고 있나요? 알고 있다면 왜 그것을 사용할 건가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EC%99%9C-load-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%99%80-%EA%B0%99%EC%9D%80-%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98%EC%9A%94-%EC%9D%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%97%90%EB%8A%94-%EB%8B%A8%EC%A0%90%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94-%EB%8B%A4%EB%A5%B8-%EB%8C%80%EC%95%88%EC%9D%84-%EC%95%8C%EA%B3%A0-%EC%9E%88%EB%82%98%EC%9A%94-%EC%95%8C%EA%B3%A0-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%99%9C-%EA%B7%B8%EA%B2%83%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0-%EA%B1%B4%EA%B0%80%EC%9A%94)
+28. [==와 ===의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q28-%EC%99%80-%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+29. [JavaScript와 관련하여 same-origin 정책을 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q29-javascript%EC%99%80-%EA%B4%80%EB%A0%A8%ED%95%98%EC%97%AC-same-origin-%EC%A0%95%EC%B1%85%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+30. [왜 Ternary expression이라고 부르고, "Ternary"라는 단어는 무엇을 나타내나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q30-%EC%99%9C-ternary-expression%EC%9D%B4%EB%9D%BC%EA%B3%A0-%EB%B6%80%EB%A5%B4%EA%B3%A0-ternary%EB%9D%BC%EB%8A%94-%EB%8B%A8%EC%96%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%84-%EB%82%98%ED%83%80%EB%82%B4%EB%82%98%EC%9A%94)
+31. ["use strict"; 이 무엇인가요? 사용시 장단점이 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-use-strict-%EC%9D%B4-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%82%AC%EC%9A%A9%EC%8B%9C-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%9D%B4-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+32. [일반적으로 웹 사이트의 전역 스코프를 그대로 두고 건드리지 않는 것이 좋은 이유는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EC%9D%BC%EB%B0%98%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%9D%98-%EC%A0%84%EC%97%AD-%EC%8A%A4%EC%BD%94%ED%94%84%EB%A5%BC-%EA%B7%B8%EB%8C%80%EB%A1%9C-%EB%91%90%EA%B3%A0-%EA%B1%B4%EB%93%9C%EB%A6%AC%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%83%EC%9D%B4-%EC%A2%8B%EC%9D%80-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+33. [SPA가 무엇인지 설명하고 SEO-friendly하게 만드는 방법을 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-spa%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%98%EA%B3%A0-seo-friendly%ED%95%98%EA%B2%8C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+34. [Promise와 그 Polyfill에 대한 당신의 경험은 어느 정도인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-promise%EC%99%80-%EA%B7%B8-polyfill%EC%97%90-%EB%8C%80%ED%95%9C-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EA%B2%BD%ED%97%98%EC%9D%80-%EC%96%B4%EB%8A%90-%EC%A0%95%EB%8F%84%EC%9D%B8%EA%B0%80%EC%9A%94)
+35. [Callback 대신에 Promise를 사용할 때의 장점과 단점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-callback-%EB%8C%80%EC%8B%A0%EC%97%90-promise%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%A0-%EB%95%8C%EC%9D%98-%EC%9E%A5%EC%A0%90%EA%B3%BC-%EB%8B%A8%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+36. [Polyfill이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-polyfill%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+37. [JavaScript로 컴파일되는 언어로 JavaScript 코드를 작성하는 경우의 장단점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-javascript%EB%A1%9C-%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%90%98%EB%8A%94-%EC%96%B8%EC%96%B4%EB%A1%9C-javascript-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+38. [JavaScript 코드를 디버깅하기 위해 어떤 도구와 기술을 사용하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-javascript-%EC%BD%94%EB%93%9C%EB%A5%BC-%EB%94%94%EB%B2%84%EA%B9%85%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%B4-%EC%96%B4%EB%96%A4-%EB%8F%84%EA%B5%AC%EC%99%80-%EA%B8%B0%EC%88%A0%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%82%98%EC%9A%94)
+39. [오브젝트 속성이나 배열 항목을 반복할 때 사용하는 언어 구문은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EC%86%8D%EC%84%B1%EC%9D%B4%EB%82%98-%EB%B0%B0%EC%97%B4-%ED%95%AD%EB%AA%A9%EC%9D%84-%EB%B0%98%EB%B3%B5%ED%95%A0-%EB%95%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%96%B8%EC%96%B4-%EA%B5%AC%EB%AC%B8%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+40. [mutable 객체와 immutable 객체 사이의 차이점을 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-mutable-%EA%B0%9D%EC%B2%B4%EC%99%80-immutable-%EA%B0%9D%EC%B2%B4-%EC%82%AC%EC%9D%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+41. [동기 함수와 비동기 함수의 차이점을 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EB%8F%99%EA%B8%B0-%ED%95%A8%EC%88%98%EC%99%80-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%95%A8%EC%88%98%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+42. [이벤트 루프란 무엇인가요? 콜 스택과 태스크 큐의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%BD%9C-%EC%8A%A4%ED%83%9D%EA%B3%BC-%ED%83%9C%EC%8A%A4%ED%81%AC-%ED%81%90%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+43. [function foo(){}와 var foo = function(){} 사이에서 foo 사용의 차이에 대해 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-function-foo%EC%99%80-var-foo--function-%EC%82%AC%EC%9D%B4%EC%97%90%EC%84%9C-foo-%EC%82%AC%EC%9A%A9%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%97%90-%EB%8C%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+44. [var, let, const를 사용하여 생성된 변수들의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-var-let-const%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%83%9D%EC%84%B1%EB%90%9C-%EB%B3%80%EC%88%98%EB%93%A4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+45. [ES6 클래스와 ES5 함수 생성자의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-es6-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-es5-%ED%95%A8%EC%88%98-%EC%83%9D%EC%84%B1%EC%9E%90%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+46. [새 화살표 => 함수 문법에 대한 사용 예시를 들 수 있나요? 이 새로운 문법은 다른 함수와 어떻게 다른가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EC%83%88-%ED%99%94%EC%82%B4%ED%91%9C--%ED%95%A8%EC%88%98-%EB%AC%B8%EB%B2%95%EC%97%90-%EB%8C%80%ED%95%9C-%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EB%A5%BC-%EB%93%A4-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94-%EC%9D%B4-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%AC%B8%EB%B2%95%EC%9D%80-%EB%8B%A4%EB%A5%B8-%ED%95%A8%EC%88%98%EC%99%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8B%A4%EB%A5%B8%EA%B0%80%EC%9A%94)
+47. [생성자의 메서드에 화살표 문법을 사용하면 어떤 이점이 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EC%83%9D%EC%84%B1%EC%9E%90%EC%9D%98-%EB%A9%94%EC%84%9C%EB%93%9C%EC%97%90-%ED%99%94%EC%82%B4%ED%91%9C-%EB%AC%B8%EB%B2%95%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%96%B4%EB%96%A4-%EC%9D%B4%EC%A0%90%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
+
+## 질문 및 답변
 
 ### Q1. 이벤트 위임에 대해 설명하세요.
 
@@ -576,7 +628,7 @@ console.log(input.value); // Hello World!
 
 </details>
 
-### Q27. `document load` 이벤트와 `document DOMContentLoaded` 이벤트의 차이점은 무엇인가요?
+### Q26. `document load` 이벤트와 `document DOMContentLoaded` 이벤트의 차이점은 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -588,7 +640,7 @@ console.log(input.value); // Hello World!
 
 </details>
 
-### Q. 왜 load 이벤트와 같은 것을 사용하나요? 이 이벤트에는 단점이 있나요? 다른 대안을 알고 있나요? 알고 있다면 왜 그것을 사용할 건가요?
+### Q27. 왜 load 이벤트와 같은 것을 사용하나요? 이 이벤트에는 단점이 있나요? 다른 대안을 알고 있나요? 알고 있다면 왜 그것을 사용할 건가요?
 
 <details>
 <summary>Answer</summary>
@@ -681,7 +733,7 @@ console.log(ternary); // 10보다 작거나 같습니다.
 
 </details>
 
-### Q. `"use strict";` 이 무엇인가요? 사용시 장단점이 무엇인가요?
+### Q31. `"use strict";` 이 무엇인가요? 사용시 장단점이 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -694,7 +746,7 @@ console.log(ternary); // 10보다 작거나 같습니다.
 
 </details>
 
-### Q. 일반적으로 웹 사이트의 전역 스코프를 그대로 두고 건드리지 않는 것이 좋은 이유는 무엇인가요?
+### Q32. 일반적으로 웹 사이트의 전역 스코프를 그대로 두고 건드리지 않는 것이 좋은 이유는 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -705,7 +757,7 @@ console.log(ternary); // 10보다 작거나 같습니다.
 
 </details>
 
-### Q. SPA가 무엇인지 설명하고 SEO-friendly하게 만드는 방법을 설명하세요.
+### Q33. SPA가 무엇인지 설명하고 SEO-friendly하게 만드는 방법을 설명하세요.
 
 <details>
 <summary>Answer</summary>
@@ -719,7 +771,7 @@ SEO 친화적이게 만드는 방법
 
 </details>
 
-### Q. Promise와 그 Polyfill에 대한 당신의 경험은 어느 정도인가요?
+### Q34. Promise와 그 Polyfill에 대한 당신의 경험은 어느 정도인가요?
 
 <details>
 <summary>Answer</summary>
@@ -852,7 +904,7 @@ Promise에 대한 Polyfill은 CDN이나 NPM을 사용해봤습니다.
 
 </details>
 
-### Q. Callback 대신에 Promise를 사용할 때의 장점과 단점은 무엇인가요?
+### Q35. Callback 대신에 Promise를 사용할 때의 장점과 단점은 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -870,7 +922,7 @@ Promise에 대한 Polyfill은 CDN이나 NPM을 사용해봤습니다.
 
 </details>
 
-### Q. Polyfill이란 무엇인가요?
+### Q36. Polyfill이란 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -881,7 +933,7 @@ Babel을 이용하면 되지만 ES5에 존재하지 않는 ES6의 Map, Promise, 
 
 </details>
 
-### Q. JavaScript로 컴파일되는 언어로 JavaScript 코드를 작성하는 경우의 장단점은 무엇인가요?
+### Q37. JavaScript로 컴파일되는 언어로 JavaScript 코드를 작성하는 경우의 장단점은 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -897,7 +949,7 @@ Babel을 이용하면 되지만 ES5에 존재하지 않는 ES6의 Map, Promise, 
 
 </details>
 
-### Q. JavaScript 코드를 디버깅하기 위해 어떤 도구와 기술을 사용하나요?
+### Q38. JavaScript 코드를 디버깅하기 위해 어떤 도구와 기술을 사용하나요?
 
 <details>
 <summary>Answer</summary>
@@ -908,21 +960,21 @@ React & Redux 코드에서는 Redux Devtools를 이용하여 디버깅했습니�
 
 </details>
 
-### Q. 오브젝트 속성이나 배열 항목을 반복할 때 사용하는 언어 구문은 무엇인가요?
+### Q39. 오브젝트 속성이나 배열 항목을 반복할 때 사용하는 언어 구문은 무엇인가요?
 
 <details>
 <summary>Answer</summary>
 
 </details>
 
-### Q. mutable 객체와 immutable 객체 사이의 차이점을 설명하세요.
+### Q40. mutable 객체와 immutable 객체 사이의 차이점을 설명하세요.
 
 <details>
 <summary>Answer</summary>
 
 </details>
 
-### Q. 동기 함수와 비동기 함수의 차이점을 설명해주세요.
+### Q41. 동기 함수와 비동기 함수의 차이점을 설명해주세요.
 
 <details>
 <summary>Answer</summary>
@@ -937,7 +989,7 @@ React & Redux 코드에서는 Redux Devtools를 이용하여 디버깅했습니�
 
 </details>
 
-### Q. 이벤트 루프란 무엇인가요? 콜 스택과 태스크 큐의 차이점은 무엇인가요?
+### Q42. 이벤트 루프란 무엇인가요? 콜 스택과 태스크 큐의 차이점은 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -959,7 +1011,7 @@ javascript는 싱글 스레드 언어임에도 불구하고 마치 멀티 스레
 
 </details>
 
-### Q. `function foo(){}`와 `var foo = function(){}` 사이에서 foo 사용의 차이에 대해 설명하세요.
+### Q43. `function foo(){}`와 `var foo = function(){}` 사이에서 foo 사용의 차이에 대해 설명하세요.
 
 <details>
 <summary>Answer</summary>
@@ -986,7 +1038,7 @@ var foo = function () {
 
 </details>
 
-### Q. `var`, `let`, `const`를 사용하여 생성된 변수들의 차이점은 무엇인가요?
+### Q44. `var`, `let`, `const`를 사용하여 생성된 변수들의 차이점은 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -1001,7 +1053,7 @@ var foo = function () {
 
 </details>
 
-### Q. ES6 클래스와 ES5 함수 생성자의 차이점은 무엇인가요?
+### Q45. ES6 클래스와 ES5 함수 생성자의 차이점은 무엇인가요?
 
 <details>
 <summary>Answer</summary>
@@ -1049,7 +1101,7 @@ class Student extends Person {
 
 </details>
 
-### Q. 새 화살표 => 함수 문법에 대한 사용 예시를 들 수 있나요? 이 새로운 문법은 다른 함수와 어떻게 다른가요?
+### Q46. 새 화살표 => 함수 문법에 대한 사용 예시를 들 수 있나요? 이 새로운 문법은 다른 함수와 어떻게 다른가요?
 
 <details>
 <summary>Answer</summary>
@@ -1067,27 +1119,13 @@ class Student extends Person {
 
 </details>
 
-### Q. 생성자의 메서드에 화살표 문법을 사용하면 어떤 이점이 있나요?
+### Q47. 생성자의 메서드에 화살표 문법을 사용하면 어떤 이점이 있나요?
 
 <details>
 <summary>Answer</summary>
 
-함수 생성시 `this`의 갑싱 설정되고 그 이후에는 변경할 수 없다는 것입니다.
+함수 생성시 `this`의 값이 설정되고 그 이후에는 변경할 수 없다는 것입니다.
 
 따라서, 생성자가 새로운 객체를 생성하는데 사용될 때, `this`는 항상 그 객체를 참조할 것입니다.
-
-</details>
-
-### Q. ES6 클래스와 ES5 함수 생성자의 차이점은 무엇인가요?
-
-<details>
-<summary>Answer</summary>
-
-</details>
-
-### Q. ES6 클래스와 ES5 함수 생성자의 차이점은 무엇인가요?
-
-<details>
-<summary>Answer</summary>
 
 </details>
