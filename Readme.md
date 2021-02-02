@@ -12,7 +12,7 @@
 4. 네트워크
 5. HTML
 6. CSS
-7. Javascript
+7. [Javascript](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md)
 8. React & Redux
 9. Django
 10. Node
