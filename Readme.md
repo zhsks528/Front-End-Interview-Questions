@@ -7,7 +7,7 @@
 ## 목차
 
 1. 공통질문
-2. 운영체제
+2. [운영체제](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS)
 3. 데이터베이스
 4. 네트워크
 5. [HTML](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML)

@@ -2,36 +2,36 @@
 
 ## 목차
 
-1. 운영체제가 무엇인지 설명해주세요.
-2. 프로세스에 대하여 설명해주세요.
-3. 스레드에 대해서 설명해주세요.
-4. 프로세스와 스레드의 주요 차이점은 무엇인가요?
-5. 멀티 스레딩의 장, 단점은 무엇인가요?
-6. 멀티 프로세스 대신 멀티 스레딩을 사용하는 이유는 무엇인가요?
-7. 멀티 프로세싱과 멀티 프로그래밍의 차이에 대해서 설명해주세요.
-8. 소켓이란 무엇인가요?
-9. 커널이란 무엇인가요?
-10. 힙영역과 스택영역의 차이점을 설명해주세요.
-11. 교착상태에 대해서 설명해주세요. (필요조건, 해결방법)
-12. 은행원 알고리즘의 정의와 장단점에 대해서 설명해주세요.
-13. 스풀링이란 무엇인가요?
-14. RAID란 무엇이고 종류에 대해서 설명해주세요.
-15. 뮤텍스와 세마포어의 차이는 무엇인가요?
-16. 운영체제에서 기아(Starvation)에 대해서 설명해주세요.
-17. 교착상태와 기아상태의 차이점은 무엇인가요?
-18. 운영체제에서 에이징은 무엇인가요?
-19. 운영체제에서 페이징은 무엇인가요?
-20. 운영체제에서 세그멘테이션이란 무엇인가요?
-21. 스케줄링(Process Scheduling)이란 무엇인가요?
-22. CPU Scheduling에 대해서 설명해주세요.
-23. 선점 스케줄링과 비선점 스케줄링의 차이점에 대해서 설명해주세요.
-24. CPU 스케줄링의 종류를 설명하시오.
-25. 메모리 단편화란 무엇인가요?
-26. 내부 단편화와 외부 단편화란 무엇인가요?
-27. 메모리 단편화 해결방법은?
-28. 사용자 수준 스레드와 커널 수준 스레드의 각각 장단점은?
-29. 사용자 수준 스레드와 커널 수준 스레드 차이는?
-30. 모드 스위치와 프로세스 스위치간의 차이점은?
+1. [운영체제가 무엇인지 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q1-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+2. [프로세스에 대하여 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q2-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+3. [스레드에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q3-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+4. [프로세스와 스레드의 주요 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q4-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%A3%BC%EC%9A%94-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+5. [멀티 스레딩의 장, 단점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q5-%EB%A9%80%ED%8B%B0-%EC%8A%A4%EB%A0%88%EB%94%A9%EC%9D%98-%EC%9E%A5-%EB%8B%A8%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+6. [멀티 프로세스 대신 멀티 스레딩을 사용하는 이유는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q6-%EB%A9%80%ED%8B%B0-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%8C%80%EC%8B%A0-%EB%A9%80%ED%8B%B0-%EC%8A%A4%EB%A0%88%EB%94%A9%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+7. [멀티 프로세싱과 멀티 프로그래밍의 차이에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q7-%EB%A9%80%ED%8B%B0-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1%EA%B3%BC-%EB%A9%80%ED%8B%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+8. [소켓이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q8-%EC%86%8C%EC%BC%93%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+9. [커널이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q9-%EC%BB%A4%EB%84%90%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+10. [힙영역과 스택영역의 차이점을 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q10-%ED%9E%99%EC%98%81%EC%97%AD%EA%B3%BC-%EC%8A%A4%ED%83%9D%EC%98%81%EC%97%AD%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+11. [교착상태에 대해서 설명해주세요. (필요조건, 해결방법)](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q11-%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94-%ED%95%84%EC%9A%94%EC%A1%B0%EA%B1%B4-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95)
+12. [은행원 알고리즘의 정의와 장단점에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q12-%EC%9D%80%ED%96%89%EC%9B%90-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%EC%A0%95%EC%9D%98%EC%99%80-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+13. [스풀링이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q13-%EC%8A%A4%ED%92%80%EB%A7%81%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+14. [RAID란 무엇이고 종류에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q14-raid%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%A2%85%EB%A5%98%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+15. [뮤텍스와 세마포어의 차이는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q15-%EB%AE%A4%ED%85%8D%EC%8A%A4%EC%99%80-%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+16. [운영체제에서 기아(Starvation)에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q16-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%97%90%EC%84%9C-%EA%B8%B0%EC%95%84starvation%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+17. [교착상태와 기아상태의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q17-%EA%B5%90%EC%B0%A9%EC%83%81%ED%83%9C%EC%99%80-%EA%B8%B0%EC%95%84%EC%83%81%ED%83%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+18. [운영체제에서 에이징은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q18-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%97%90%EC%84%9C-%EC%97%90%EC%9D%B4%EC%A7%95%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+19. [운영체제에서 페이징은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q19-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%97%90%EC%84%9C-%ED%8E%98%EC%9D%B4%EC%A7%95%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+20. [운영체제에서 세그멘테이션이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q20-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%97%90%EC%84%9C-%EC%84%B8%EA%B7%B8%EB%A9%98%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+21. [스케줄링(Process Scheduling)이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q21-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81process-scheduling%EC%9D%B4%EB%9E%80)
+22. [CPU Scheduling에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q22-cpu-scheduling%EC%9D%B4%EB%9E%80)
+23. [선점 스케줄링과 비선점 스케줄링의 차이점에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q23-%EC%84%A0%EC%A0%90-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%EA%B3%BC-%EB%B9%84%EC%84%A0%EC%A0%90-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+24. [CPU 스케줄링의 종류를 설명하시오.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q24-cpu-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%EC%9D%98-%EC%A2%85%EB%A5%98%EB%A5%BC-%EC%84%A4%EB%AA%85%ED%95%98%EC%8B%9C%EC%98%A4)
+25. [메모리 단편화란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q25-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%8B%A8%ED%8E%B8%ED%99%94%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+26. [내부 단편화와 외부 단편화란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q26-%EB%82%B4%EB%B6%80-%EB%8B%A8%ED%8E%B8%ED%99%94%EC%99%80-%EC%99%B8%EB%B6%80-%EB%8B%A8%ED%8E%B8%ED%99%94%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+27. [메모리 단편화 해결방법은?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q27-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%8B%A8%ED%8E%B8%ED%99%94-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95%EC%9D%80)
+28. [사용자 수준 스레드와 커널 수준 스레드의 각각 장단점은?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q28-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%88%98%EC%A4%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%99%80-%EC%BB%A4%EB%84%90-%EC%88%98%EC%A4%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EA%B0%81%EA%B0%81-%EC%9E%A5%EB%8B%A8%EC%A0%90%EC%9D%80)
+29. [사용자 수준 스레드와 커널 수준 스레드 차이는?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q29-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%88%98%EC%A4%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%99%80-%EC%BB%A4%EB%84%90-%EC%88%98%EC%A4%80-%EC%8A%A4%EB%A0%88%EB%93%9C-%EC%B0%A8%EC%9D%B4%EB%8A%94)
+30. [모드 스위치와 프로세스 스위치간의 차이점은?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS#q30-%EB%AA%A8%EB%93%9C-%EC%8A%A4%EC%9C%84%EC%B9%98%EC%99%80-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%8A%A4%EC%9C%84%EC%B9%98%EA%B0%84%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80)
 
 ## 질문과 답변
 
