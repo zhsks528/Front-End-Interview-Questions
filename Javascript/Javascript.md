@@ -1129,3 +1129,220 @@ class Student extends Person {
 따라서, 생성자가 새로운 객체를 생성하는데 사용될 때, `this`는 항상 그 객체를 참조할 것입니다.
 
 </details>
+
+### Q48. 고차 함수(higher-order function)의 정의는 무엇인가요?
+
+<details>
+<summary>Answer</summary>
+
+고차함수는 다른 함수를 매개 변수로 사용하여 어떤 데이터를 처리하거나 결과로 함수를 반환하는 함수입니다.
+
+예를 들면, `map()`, `filter()`, `reduce()` 가 있습니다.
+
+```javascript
+// 고차함수가 아닌 함수로 작성
+const arr1 = [1, 2, 3];
+const arr2 = [];
+
+for (let i = 0; i < arr1.length; i++) {
+  arr2.push(arr1[i] * 2);
+}
+
+console.log(arr2); // prints [2, 4, 6]
+```
+
+```javascript
+// 고차함수로 작성
+const arr1 = [1, 2, 3];
+const arr2 = arr1.map((item) => item * 2);
+
+console.log(arr2); // prints [2, 4, 6]
+```
+
+</details>
+
+### Q49. 객체나 배열에 대한 디스트럭쳐링 예시를 들 수 있나요?
+
+<details>
+<summary>Answer</summary>
+
+디스트럭쳐링은 ES6에서 지원하는 표현식으로 객체나 배열의 값을 추출하여 다른 변수에 배치하는 간결하고 편리한 방법입니다.
+
+배열에 대한 디스트럭쳐링 예시
+
+```javascript
+// 변수 할당
+const arr = ["A", "B", "C"];
+const [a, b, c] = arr;
+
+console.log(a); // A
+console.log(b); // B
+console.log(c); // C
+
+// 변수 교환
+let d = 1;
+let e = 2;
+
+[d, e] = [e, d];
+
+console.log(d); // 2
+console.log(e); // 1
+```
+
+객체에 대한 디스트럭쳐링 예시
+
+```javascript
+// 객체 할당
+const object = { a: 42, b: true, c: false };
+const { a, b, c } = object;
+
+console.log(a); // 42
+console.log(b); // true
+console.log(c); // false
+```
+
+</details>
+
+### Q50. ES6 템플릿 리터럴은 문자열을 생성하는데 많은 유연성을 제공합니다. 이에 대한 예를 들 수 있나요?
+
+<details>
+<summary>Answer</summary>
+
+ES6 템플릿 리터럴은 `(백틱)을 이용하여 문자열 및 다수의 행 문자열을 생성할 때 유연성을 제공합니다.
+
+```javascript
+var student = { name: "John", age: 27 };
+
+// ES5
+var tempStr = "Hello, My name is " + student.name + " age is " + student.age;
+console.log(tempStr); // Hello, My name is John age is 27
+
+// ES6
+var tempStr = `Hello, My name is ${student.name} age is ${student.age}`;
+console.log(tempStr); // Hello, My name is John age is 27
+```
+
+```javascript
+// ES5
+var multiStr = "First Line \nSecond Line \nThree Line";
+console.log(multiStr);
+
+// Result
+// First Line
+// Second Line
+// Three Line
+
+// ES6
+var multiStr = `First Line 
+Second Line 
+Three Line
+`;
+console.log(multiStr);
+
+// Result
+// First Line
+// Second Line
+// Three Line
+```
+
+</details>
+
+### Q51. spread 문법을 사용할 때의 이점은 무엇이며 rest 문법과 다른 점은 무엇인가요?
+
+<details>
+<summary>Answer</summary>
+
+spread 문법을 사용하면 `Object.assign()`, `slice` 문법을 사용하지 않고도 손쉽게 배열 및 객체를 복사할 수 있습니다.
+
+```javascript
+const arr = ["A", 1, "B", 2];
+
+// Object.assign()
+const copyArr1 = Object.assign([], arr);
+
+// Slice
+const copyArr2 = arr.slice();
+
+// spread
+const copyArr3 = [...arr];
+
+console.log(copyArr1); // ["A", 1, "B", 2]
+console.log(copyArr2); // ["A", 1, "B", 2]
+console.log(copyArr3); // ["A", 1, "B", 2]
+```
+
+rest 문법은 2개 이상의 매개변수를 약식으로 표현하는 방법입니다.
+
+```javascript
+function testRest(a, b, ...other) {
+  console.log(a); // 1
+  console.log(b); // 2
+  console.log(other); // [3, 4, 5]
+}
+
+testRest(1, 2, 3, 4, 5);
+```
+
+</details>
+
+### Q52. 파일 간에 코드를 공유하려면 어떻게 해야하나요?
+
+<details>
+<summary>Answer</summary>
+
+파일 간에 코드를 공유하려면 자바스크립트 환경에 따른 `모듈 시스템`을 구축하면 됩니다.
+
+모듈 시스템 구축방법으로는 AMD, CommonJS, ES6 (import, export) 등
+이 있습니다.
+
+</details>
+
+### Q53. 정적 클래스 멤버를 만드는 이유는 무엇인가요?
+
+<details>
+<summary>Answer</summary>
+
+정적 클래스 멤버(속성/메서드)는 클래스의 특정 인스턴스와 묶이지 않으며, 어떤 인스턴스가 이를 참조하는지에 관계없이 동일한 값을 가집니다.
+
+정적 속성은 일반적으로 설정 변수이며, 정적 메서드는 일반적으로 인스턴스의 상태에 의존하지 않는 순수 유틸리티 함수입니다.
+
+정적 메서드는 클래스 인스턴스에서 호출할수 없다는 점을 기억해야합니다.
+
+</details>
+
+### Q54. JAVA와 Javascript의 다른점은 무엇인가요?
+
+<details>
+<summary>Answer</summary>
+
+가장 큰 차이점은 `타입`과 `기반`입니다.
+
+Java는 정적타입을 사용하는 클래스기반 컴파일 인터프린터 언어입니다.
+Javascript는 동적타입을 사용하는 프로토타입 기반 인터프린터 언어입니다.
+
+</details>
+
+### Q55. Typescript을 사용해 본 적이 있나요? 어떤지 말씀해주세요.
+
+<details>
+<summary>Answer</summary>
+
+간단한 토이프로젝트를 진행해보면서 TS를 사용해본 적이 있습니다.
+
+Typescript를 사용하면 동적 타입을 정적 타입으로 바꿔줄 수 있기 때문에 타입에 대한 오류를 방지 및 발견과 유지보수 측면에서 강점을 느꼈습니다.
+
+</details>
+
+### Q56. require와 import의 차이점은 무엇인가요?
+
+<details>
+<summary>Answer</summary>
+
+둘다 모듈 시스템을 구축할 때 쓰는 방법입니다.
+
+`require`는 ES5에서 사용되는 모듈시스템 구현 방식으로 동기식으로 작동됩니다.
+
+`import`는 ES6에서 사용되는 모듈시스템 구현 방식으로 비동기식으로 작동됩니다.
+ES6를 지원하지 않는 브라우저가 있기 때문에 Babel을 이용하여 ES5로 바꿔줘야합니다.
+
+</details>
