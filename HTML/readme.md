@@ -2,37 +2,37 @@
 
 ## 목차
 
-1. `<iframe>`이란 무엇이고 어떻게 동작하나요?
-2. `<meta>`에 대해서 설명해주세요.
-3. `<img>`에 alt 속성을 정의해야하는 이유는 무엇인가요?
-4. `<span>` 과 `<div>`의 차이는 무엇인가요?
-5. 검색엔진에 의해 더 잘 찾게 하려면 어떻게 해야하나요?
-6. html5 규격에 대한 주요 목표와 동기는 무엇인가요?
-7. text안에 highlight를 넣는 방법은 무엇인가요?
-8. 문자 인코딩이란?
-9. HTML `<small>`은 언제 사용되나요?
-10. 표준모드와 쿼크모드에 대해서 설명해주세요.
-11. 여러 언어로 되어 있는 콘텐츠의 페이지를 어떻게 제공하나요?
-12. 다국어 사이트를 디자인하거나 개발할 때 주의해야할 사항은 무엇인요?
-13. `<script>`, `<script async>`, `<script defer>` 사이의 차이점을 설명하세요.
-14. rel= "noopener", "nofollow", "noreferrer" 은 언제 어디에 사용되나요?
-15. WebSQL이란 무엇인가요?
-16. DOCTYPE은 무엇을 하나요?
-17. cookie, sessionStorage, localStorage 사이의 차이점을 설명하세요.
-18. DOM이란 무엇인가요?
-19. DOM과 HTML의 차이점은 무엇인가요?
-20. `<header>` `<section>` `<article>` `<aside>` `<nav>` `<footer>`의 적절한 사용법은 무엇인가요?
-21. data-속성은 무엇에 좋은가요?
-22. HTML5를 개방형 웹 플랫폼으로 간주할 때, HTML5의 구성 요소는 무엇인가요?
-23. `<main>`의 주요 목적은 무엇인가요?
-24. HTML5 에서 시맨틱 태그를 사용하는 이유에 대해서 설명하세요.
-25. 시멘틱 웹이란 무엇인지 설명하세요.
-26. 왜 일반적으로 CSS `<link>` 태그를 `<head></head>` 태그 사이에 위치시키고, JS `<script>` 태그를 `</body>` 직전에 위치시키는 것이 좋은 방법인가요? 다른 예외적인 상황을 알고있나요?
-27. 프로그레시브 렌더링이 무엇인가요?
-28. 이미지 태그에 srcset 속성을 사용하는 이유는 무엇인가요? 이 속성의 컨텐츠를 실행할 때 브라우저의 프로세스를 설명하세요.
-29. 이전에 HTML templating 언어를 사용해본 경험이 있나요?
-30. `<canvas>`와`<svg>` 중 어떤 것을 선택할 것인가요?
-31. Indexed DB는 무엇인가요?
+1. [`<iframe>`이란 무엇이고 어떻게 동작하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q1-iframe%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%82%98%EC%9A%94)
+2. [`<meta>`에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q2-meta%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+3. [`<img>`에 alt 속성을 정의해야하는 이유는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q3-img%EC%97%90-alt-%EC%86%8D%EC%84%B1%EC%9D%84-%EC%A0%95%EC%9D%98%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+4. [`<span>` 과 `<div>`의 차이는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q4-span-%EA%B3%BC-div%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+5. [검색엔진에 의해 더 잘 찾게 하려면 어떻게 해야하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q5-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%97%90-%EC%9D%98%ED%95%B4-%EB%8D%94-%EC%9E%98-%EC%B0%BE%EA%B2%8C-%ED%95%98%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%ED%95%98%EB%82%98%EC%9A%94)
+6. [html5 규격에 대한 주요 목표와 동기는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q6-html5-%EA%B7%9C%EA%B2%A9%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A3%BC%EC%9A%94-%EB%AA%A9%ED%91%9C%EC%99%80-%EB%8F%99%EA%B8%B0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+7. [text안에 highlight를 넣는 방법은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q7-text%EC%95%88%EC%97%90-highlight%EB%A5%BC-%EB%84%A3%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+8. [문자 인코딩이란?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q8-%EB%AC%B8%EC%9E%90-%EC%9D%B8%EC%BD%94%EB%94%A9%EC%9D%B4%EB%9E%80)
+9. [HTML `<small>`은 언제 사용되나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q9-html-small%EC%9D%80-%EC%96%B8%EC%A0%9C-%EC%82%AC%EC%9A%A9%EB%90%98%EB%82%98%EC%9A%94)
+10. [표준모드와 쿼크모드에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q10-%ED%91%9C%EC%A4%80%EB%AA%A8%EB%93%9C%EC%99%80-%EC%BF%BC%ED%81%AC%EB%AA%A8%EB%93%9C%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+11. [여러 언어로 되어 있는 콘텐츠의 페이지를 어떻게 제공하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q11-%EC%97%AC%EB%9F%AC-%EC%96%B8%EC%96%B4%EB%A1%9C-%EB%90%98%EC%96%B4-%EC%9E%88%EB%8A%94-%EC%BD%98%ED%85%90%EC%B8%A0%EC%9D%98-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%82%98%EC%9A%94)
+12. [다국어 사이트를 디자인하거나 개발할 때 주의해야할 사항은 무엇인요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q12-%EB%8B%A4%EA%B5%AD%EC%96%B4-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EB%94%94%EC%9E%90%EC%9D%B8%ED%95%98%EA%B1%B0%EB%82%98-%EA%B0%9C%EB%B0%9C%ED%95%A0-%EB%95%8C-%EC%A3%BC%EC%9D%98%ED%95%B4%EC%95%BC%ED%95%A0-%EC%82%AC%ED%95%AD%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EC%9A%94)
+13. [`<script>`, `<script async>`, `<script defer>` 사이의 차이점을 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q13-script-script-async-script-defer-%EC%82%AC%EC%9D%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+14. [rel= "noopener", "nofollow", "noreferrer" 은 언제 어디에 사용되나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q14-rel-noopener-nofollow-noreferrer-%EC%9D%80-%EC%96%B8%EC%A0%9C-%EC%96%B4%EB%94%94%EC%97%90-%EC%82%AC%EC%9A%A9%EB%90%98%EB%82%98%EC%9A%94)
+15. [WebSQL이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q15-websql%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+16. [DOCTYPE은 무엇을 하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q16-doctype%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%84-%ED%95%98%EB%82%98%EC%9A%94)
+17. [cookie, sessionStorage, localStorage 사이의 차이점을 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q17-cookie-sessionstorage-localstorage-%EC%82%AC%EC%9D%B4%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+18. [DOM이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q18-dom%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+19. [DOM과 HTML의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q19-dom%EA%B3%BC-html%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+20. [`<header>` `<section>` `<article>` `<aside>` `<nav>` `<footer>`의 적절한 사용법은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q20-header-section-article-aside-nav-footer%EC%9D%98-%EC%A0%81%EC%A0%88%ED%95%9C-%EC%82%AC%EC%9A%A9%EB%B2%95%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+21. [`data-` 속성은 무엇에 좋은가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q21-data--%EC%86%8D%EC%84%B1%EC%9D%80-%EB%AC%B4%EC%97%87%EC%97%90-%EC%A2%8B%EC%9D%80%EA%B0%80%EC%9A%94)
+22. [HTML5를 개방형 웹 플랫폼으로 간주할 때, HTML5의 구성 요소는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q22-html5%EB%A5%BC-%EA%B0%9C%EB%B0%A9%ED%98%95-%EC%9B%B9-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9C%BC%EB%A1%9C-%EA%B0%84%EC%A3%BC%ED%95%A0-%EB%95%8C-html5%EC%9D%98-%EA%B5%AC%EC%84%B1-%EC%9A%94%EC%86%8C%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+23. [`<main>`의 주요 목적은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q23-main%EC%9D%98-%EC%A3%BC%EC%9A%94-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+24. [HTML5 에서 시맨틱 태그를 사용하는 이유에 대해서 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q24-html5-%EC%97%90%EC%84%9C-%EC%8B%9C%EB%A7%A8%ED%8B%B1-%ED%83%9C%EA%B7%B8%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+25. [시멘틱 웹이란 무엇인지 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q25-%EC%8B%9C%EB%A9%98%ED%8B%B1-%EC%9B%B9%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+26. [왜 일반적으로 CSS `<link>` 태그를 `<head></head>` 태그 사이에 위치시키고, JS `<script>` 태그를 `</body>` 직전에 위치시키는 것이 좋은 방법인가요? 다른 예외적인 상황을 알고있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q26-%EC%99%9C-%EC%9D%BC%EB%B0%98%EC%A0%81%EC%9C%BC%EB%A1%9C-css-link-%ED%83%9C%EA%B7%B8%EB%A5%BC-headhead-%ED%83%9C%EA%B7%B8-%EC%82%AC%EC%9D%B4%EC%97%90-%EC%9C%84%EC%B9%98%EC%8B%9C%ED%82%A4%EA%B3%A0-js-script-%ED%83%9C%EA%B7%B8%EB%A5%BC-body-%EC%A7%81%EC%A0%84%EC%97%90-%EC%9C%84%EC%B9%98%EC%8B%9C%ED%82%A4%EB%8A%94-%EA%B2%83%EC%9D%B4-%EC%A2%8B%EC%9D%80-%EB%B0%A9%EB%B2%95%EC%9D%B8%EA%B0%80%EC%9A%94-%EB%8B%A4%EB%A5%B8-%EC%98%88%EC%99%B8%EC%A0%81%EC%9D%B8-%EC%83%81%ED%99%A9%EC%9D%84-%EC%95%8C%EA%B3%A0%EC%9E%88%EB%82%98%EC%9A%94)
+27. [프로그레시브 렌더링이 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q27-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C-%EB%A0%8C%EB%8D%94%EB%A7%81%EC%9D%B4-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+28. [이미지 태그에 srcset 속성을 사용하는 이유는 무엇인가요? 이 속성의 컨텐츠를 실행할 때 브라우저의 프로세스를 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q28-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%83%9C%EA%B7%B8%EC%97%90-srcset-%EC%86%8D%EC%84%B1%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-%EC%9D%B4-%EC%86%8D%EC%84%B1%EC%9D%98-%EC%BB%A8%ED%85%90%EC%B8%A0%EB%A5%BC-%EC%8B%A4%ED%96%89%ED%95%A0-%EB%95%8C-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%9D%98-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EB%A5%BC-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+29. [이전에 HTML templating 언어를 사용해본 경험이 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q29-%EC%9D%B4%EC%A0%84%EC%97%90-html-templating-%EC%96%B8%EC%96%B4%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B8-%EA%B2%BD%ED%97%98%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
+30. [`<canvas>`와`<svg>` 중 어떤 것을 선택할 것인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q30-canvas%EC%99%80svg-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%84%A0%ED%83%9D%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94)
+31. [Indexed DB는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q31-indexed-db%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
 
 ## 질문 및 답변
 
