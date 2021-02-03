@@ -49,6 +49,15 @@
 45. [ES6 클래스와 ES5 함수 생성자의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-es6-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-es5-%ED%95%A8%EC%88%98-%EC%83%9D%EC%84%B1%EC%9E%90%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
 46. [새 화살표 => 함수 문법에 대한 사용 예시를 들 수 있나요? 이 새로운 문법은 다른 함수와 어떻게 다른가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EC%83%88-%ED%99%94%EC%82%B4%ED%91%9C--%ED%95%A8%EC%88%98-%EB%AC%B8%EB%B2%95%EC%97%90-%EB%8C%80%ED%95%9C-%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C%EB%A5%BC-%EB%93%A4-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94-%EC%9D%B4-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%AC%B8%EB%B2%95%EC%9D%80-%EB%8B%A4%EB%A5%B8-%ED%95%A8%EC%88%98%EC%99%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8B%A4%EB%A5%B8%EA%B0%80%EC%9A%94)
 47. [생성자의 메서드에 화살표 문법을 사용하면 어떤 이점이 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q-%EC%83%9D%EC%84%B1%EC%9E%90%EC%9D%98-%EB%A9%94%EC%84%9C%EB%93%9C%EC%97%90-%ED%99%94%EC%82%B4%ED%91%9C-%EB%AC%B8%EB%B2%95%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%96%B4%EB%96%A4-%EC%9D%B4%EC%A0%90%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
+48. [고차 함수(higher-order function)의 정의는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q48-%EA%B3%A0%EC%B0%A8-%ED%95%A8%EC%88%98higher-order-function%EC%9D%98-%EC%A0%95%EC%9D%98%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+49. [객체나 배열에 대한 디스트럭쳐링 예시를 들 수 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q50-es6-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%A6%AC%ED%84%B0%EB%9F%B4%EC%9D%80-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EC%83%9D%EC%84%B1%ED%95%98%EB%8A%94%EB%8D%B0-%EB%A7%8E%EC%9D%80-%EC%9C%A0%EC%97%B0%EC%84%B1%EC%9D%84-%EC%A0%9C%EA%B3%B5%ED%95%A9%EB%8B%88%EB%8B%A4-%EC%9D%B4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%98%88%EB%A5%BC-%EB%93%A4-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)
+50. [ES6 템플릿 리터럴은 문자열을 생성하는데 많은 유연성을 제공합니다. 이에 대한 예를 들 수 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q50-es6-%ED%85%9C%ED%94%8C%EB%A6%BF-%EB%A6%AC%ED%84%B0%EB%9F%B4%EC%9D%80-%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84-%EC%83%9D%EC%84%B1%ED%95%98%EB%8A%94%EB%8D%B0-%EB%A7%8E%EC%9D%80-%EC%9C%A0%EC%97%B0%EC%84%B1%EC%9D%84-%EC%A0%9C%EA%B3%B5%ED%95%A9%EB%8B%88%EB%8B%A4-%EC%9D%B4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%98%88%EB%A5%BC-%EB%93%A4-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)
+51. [spread 문법을 사용할 때의 이점은 무엇이며 rest 문법과 다른 점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q52-%ED%8C%8C%EC%9D%BC-%EA%B0%84%EC%97%90-%EC%BD%94%EB%93%9C%EB%A5%BC-%EA%B3%B5%EC%9C%A0%ED%95%98%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%ED%95%98%EB%82%98%EC%9A%94)
+52. [파일 간에 코드를 공유하려면 어떻게 해야하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q52-%ED%8C%8C%EC%9D%BC-%EA%B0%84%EC%97%90-%EC%BD%94%EB%93%9C%EB%A5%BC-%EA%B3%B5%EC%9C%A0%ED%95%98%EB%A0%A4%EB%A9%B4-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%ED%95%98%EB%82%98%EC%9A%94)
+53. [정적 클래스 멤버를 만드는 이유는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q53-%EC%A0%95%EC%A0%81-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A9%A4%EB%B2%84%EB%A5%BC-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+54. [JAVA와 Javascript의 다른점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q54-java%EC%99%80-javascript%EC%9D%98-%EB%8B%A4%EB%A5%B8%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+55. [Typescript을 사용해 본 적이 있나요? 어떤지 말씀해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q56-require%EC%99%80-import%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+56. [require와 import의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md#q56-require%EC%99%80-import%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
 
 ## 질문 및 답변
 
@@ -126,6 +135,7 @@ addEventListener(type, listener, true);
 두 가지 모두 ES6이전에 모듈 시스템을 구현하는 방식입니다.
 
 AMD는 비동기식으로 동작되며 CSR에 적합하다고 생각합니다.
+
 CommonJS는 동기식으로 동작되며 SSR에 적합하다고 생각합니다.
 
 ES6 이후로는 Import와 Export 키워드를 이용하여 모듈 시스템을 구현할 수 있습니다.
@@ -138,6 +148,7 @@ ES6 이후로는 Import와 Export 키워드를 이용하여 모듈 시스템을 
 <summary>Answer</summary>
 
 function foo(){}(); 함수 선언과 동시에 호출이 이루어졌기 때문입니다.
+
 javscript parser는 이 구문을 아래와 같이 해석합니다.
 
 ```javascript
@@ -211,7 +222,7 @@ console.log(foo == undefined); // true. 옳지않습니다. 이렇게 사용하�
 <details>
 <summary>Answer</summary>
 
-클로저(Closure)는 자신을 포함하고 있는 외부함수보다 내부함수가 더 오래 유지될 경우 외부 함수 밖에서 내부함수가 호출되었을 때 외부함수의 지역변수에 접근할 수 있는 함수입니다.
+**클로저(Closure)**는 자신을 포함하고 있는 외부함수보다 내부함수가 더 오래 유지될 경우 외부 함수 밖에서 내부함수가 호출되었을 때 외부함수의 지역변수에 접근할 수 있는 함수입니다.
 
 클로저를 어떻게 사용하는지 코드로 설명해주세요.
 
@@ -248,7 +259,7 @@ console.log(inner()); // 20
 <details>
 <summary>Answer</summary>
 
-Curying은 둘 이상의 매개 변수가 있는 함수가 여러 함수로 분리되는 문법입니다.
+**Curying**은 둘 이상의 매개 변수가 있는 함수가 여러 함수로 분리되는 문법입니다.
 
 이 문법을 사용함으로써 장점은 2가지 정도가 있습니다.
 
@@ -284,10 +295,11 @@ console.log(addCurry(2)(3)(5)); // 10
 <details>
 <summary>Answer</summary>
 
-forEach와 map 사이의 주요 차이점은 반환 값의 존재 여부입니다.
+forEach와 map 사이의 주요 차이점은 **반환 값의 존재 여부**입니다.
+
 forEach는 반환 값이 존재하지 않지만 map은 새로운 배열을 반환합니다.
 
-단순히 배열을 반복해야한다면 forEach를 사용할 것이고, 원본 배열을 변경하지 않으면서 새로운 배열을 생성해야한다면 map을 사용할 것입니다.
+단순히 배열을 반복해야한다면 `forEach`를 사용할 것이고, 원본 배열을 변경하지 않으면서 새로운 배열을 생성해야한다면 `map`을 사용할 것입니다.
 
 `forEach`
 배열의 요소를 순회하면서 각 요소에 대해 Callback를 실행합니다.
@@ -590,9 +602,10 @@ console.log(bar); // 2
 <details>
 <summary>Answer</summary>
 
-가장 큰 차이점은 값이 바뀌느냐 입니다.
+가장 큰 차이점은 **값이 바뀌느냐** 입니다.
 
 속성(Attribute)은 HTML 태그에 정의되며, 값이 바뀌지 않습니다.
+
 속성(Property)은 DOM 노드에 정의되며, 값이 바뀝니다.
 
 예시 : `<input type="text" value="Hello">`
@@ -718,7 +731,9 @@ http://news.company.com/dir/other.html            // 실패 : 호스트가 다�
 <details>
 <summary>Answer</summary>
 
-Ternary expression는 삼항표현식이라고 하며 Javascript에서 유일하게 3개의 피연산자를 받을 수 있는 연산자입니다. 보통 if문을 축약할 때 사용합니다.
+Ternary expression는 **삼항표현식**이라고 하며 Javascript에서 유일하게 3개의 피연산자를 받을 수 있는 연산자입니다.
+
+보통 if문을 축약할 때 사용합니다.
 
 Tenary는 삼항이라는 뜻을 가지고 있습니다.
 
@@ -751,9 +766,9 @@ console.log(ternary); // 10보다 작거나 같습니다.
 <details>
 <summary>Answer</summary>
 
-전역 스코프란 어디에서든 접근할 수 있는 스코프이기 때문에 변수명 또는 함수명이 겹칠수 있고 그 결과 오류가 발생할 수 있습니다.
+전역 스코프란 어디에서든 접근할 수 있는 스코프이기 때문에 **변수명 또는 함수명이 겹칠수 있고 그 결과 오류가 발생**할 수 있습니다.
 
-모듈 패턴(IIFE 등)을 이용하여 전역 스코프를 보호해야합니다.
+**모듈 패턴(IIFE 등)**을 이용하여 전역 스코프를 보호해야합니다.
 
 </details>
 
@@ -764,7 +779,7 @@ console.log(ternary); // 10보다 작거나 같습니다.
 
 SPA(Single Page Application)는 서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의 페이지를 동적으로 다시 작성함으로써 사용자와 소통하는 웹 애플리케이션입니다.
 
-SEO 친화적이게 만드는 방법
+SEO 친화적이게 만드는 방법은 아래와 같습니다.
 
 1. Server-side rendering or Prerendering 적용
 2. SEO 친화적 URLs 설정
@@ -929,7 +944,7 @@ Promise에 대한 Polyfill은 CDN이나 NPM을 사용해봤습니다.
 
 **Polyfill**은 기본적으로 지원하지 않은 이전 브라우저에서 최신 기능을 제공하는데 필요한 코드입니다.
 
-Babel을 이용하면 되지만 ES5에 존재하지 않는 ES6의 Map, Promise, Set, Object.assign() 등은 번역이 되지 않습니다. 이러한 기능을 제공하기 위해 polyfill을 이용합니다.
+Babel을 이용하면 되지만 ES5에 존재하지 않는 ES6의 `Map`, `Promise`, `Set`, `Object.assign()` 등은 번역이 되지 않습니다. 이러한 기능을 제공하기 위해 polyfill을 이용합니다.
 
 </details>
 
@@ -939,9 +954,10 @@ Babel을 이용하면 되지만 ES5에 존재하지 않는 ES6의 Map, Promise, 
 <summary>Answer</summary>
 
 저는 Typescript를 경험해봄으로써 느낀 장단점을 설명해보겠습니다.
+
 장점은 아래와 같습니다.
 
-2. javascript의 동적 타입을 정적 타입으로 바꿔줌으로써 오류를 방지할 수 있고, 대규모 프로젝트에 어울리다고 생각합니다.
+1. javascript의 동적 타입을 정적 타입으로 바꿔줌으로써 오류를 방지할 수 있고, 대규모 프로젝트에 어울리다고 생각합니다.
 
 단점은 아래와 같습니다.
 
@@ -1018,7 +1034,7 @@ javascript는 싱글 스레드 언어임에도 불구하고 마치 멀티 스레
 
 가장 큰 차이점은 **호이스팅**입니다.
 
-`function foo(){}`는 함수 선언식이며 `var foo = function(){}`는 함수 표현식입니다.
+`function foo(){}`는 **함수 선언식**이며 `var foo = function(){}`는 **함수 표현식**입니다.
 
 ```javascript
 // 함수 선언식
@@ -1043,7 +1059,7 @@ var foo = function () {
 <details>
 <summary>Answer</summary>
 
-가장 큰 차이점은 스코프, 재선언, 재할당 3가지 입니다.
+가장 큰 차이점은 **스코프**, **재선언**, **재할당** 3가지 입니다.
 
 `var`는 함수 스코프이며 재선언 및 재할당이 가능합니다.
 
@@ -1318,6 +1334,7 @@ testRest(1, 2, 3, 4, 5);
 가장 큰 차이점은 `타입`과 `기반`입니다.
 
 Java는 정적타입을 사용하는 클래스기반 컴파일 인터프린터 언어입니다.
+
 Javascript는 동적타입을 사용하는 프로토타입 기반 인터프린터 언어입니다.
 
 </details>
@@ -1343,6 +1360,7 @@ Typescript를 사용하면 동적 타입을 정적 타입으로 바꿔줄 수 �
 `require`는 ES5에서 사용되는 모듈시스템 구현 방식으로 동기식으로 작동됩니다.
 
 `import`는 ES6에서 사용되는 모듈시스템 구현 방식으로 비동기식으로 작동됩니다.
+
 ES6를 지원하지 않는 브라우저가 있기 때문에 Babel을 이용하여 ES5로 바꿔줘야합니다.
 
 </details>
