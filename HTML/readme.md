@@ -33,6 +33,7 @@
 29. [이전에 HTML templating 언어를 사용해본 경험이 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q29-%EC%9D%B4%EC%A0%84%EC%97%90-html-templating-%EC%96%B8%EC%96%B4%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B8-%EA%B2%BD%ED%97%98%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
 30. [`<canvas>`와`<svg>` 중 어떤 것을 선택할 것인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q30-canvas%EC%99%80svg-%EC%A4%91-%EC%96%B4%EB%96%A4-%EA%B2%83%EC%9D%84-%EC%84%A0%ED%83%9D%ED%95%A0-%EA%B2%83%EC%9D%B8%EA%B0%80%EC%9A%94)
 31. [Indexed DB는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML#q31-indexed-db%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+32. [XML과 XHTML의 다른 점은 무엇인가요?]
 
 ## 질문 및 답변
 
@@ -517,5 +518,14 @@ HTML은 최초의 화면을 그릴 때 사용하는 설계도와 비슷합니다
 1. 키와 값 한쌍으로 저장합니다.
 2. 트랜잭션 데이터베이스 모델을 기반으로 만들어졌습니다.
 3. 비동기 방식으로 이루어집니다.
+
+</details>
+
+### Q32. XML과 XHTML의 다른 점은 무엇인가요
+
+<details>
+<summary>Answer</summary>
+
+XML은 드라이버 하드웨어, 운영 체제 및 다양한 응용 프로그램 간에 데이터를 전송하도록 설계 된 마크업언어지만 XHTML은 XML의 강점을 HTML과 결함한 언어입니다.
 
 </details>
