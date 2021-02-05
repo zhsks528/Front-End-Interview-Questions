@@ -13,7 +13,7 @@
 5. [HTML](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML)
 6. [CSS](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS)
 7. [Javascript](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md)
-8. React & Redux
+8. [React & Redux](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux)
 9. Django
 10. Node
 11. MongoDB

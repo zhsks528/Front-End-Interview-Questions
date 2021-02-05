@@ -2,40 +2,40 @@
 
 ## 목차
 
-1. Virtual DOM이란 무엇인가요?
-2. Virtual DOM의 동작방식에 대해서 설명해주세요.
-3. React.JS란 무엇인가요?
-4. React의 장점은 무엇인가요?
-5. React에서 컴포넌트를 어떻게 생성하나요?
-6. 왜 Component의 이름은 대문자로 표기해야 하나요?
-7. React에서 `elemen`t와 `component`의 차이점은 무엇인가요?
-8. state와 props의 정의와 차이점에 대해서 설명해주세요.
-9. state를 직접 업데이트하면 안되는 이유는 무엇인가요?
-10. setState에서 callback의 역할은 무엇인가요?
-11. this를 바인딩하는 방법은 어떤 것들이 있나요?
-12. ref의 용도는 무엇인가요?
-13. forward ref란 무엇인가요?
-14. controlled component와 uncontrolled component 에 대해서 설명해주세요.
-15. createElement와 cloneElement의 차이점은 무엇인가요?
-16. React에서 Lifting State Up은 무엇인가요?
-17. 라이프 사이클 단계와 메소드에 대해서 설명해주세요.
-18. props argument와 함께 super constructor를 사용하는 목적은 무엇인가요?
-19. `<Fragement>`는 무엇이고 장점에 대해서 설명해주세요.
-20. componentWillMount에서 setState를 사용하는게 좋나요?
-21. React에서 context는 무엇인가요?
-22. React에서 portal은 무엇인가요?
-23. CRA는 무엇이고 사용함으로써 이점은 무엇인가요?
-24. Switching Component란 무엇인가요?
-25. React Fiber란 무엇이고 주요 목표에 대해서 설명해주세요.
-26. list에서 `key`를 사용했을 때의 이점은 무엇인가요?
-27. React DOM의 render메서드의 목적은 무엇인가요?
-28. constructor에서 setState를 사용하면 무슨일이 생기나요?
-29. 조건에 따른 component 렌더링은 어떻게 해야하나요?
-30. Server Side Rendering(SSR) 을 어떻게 구현하나요?
-31. 왜 Reacat에서 props를 update 할 수 없나요?
-32. 어떻게 페이지 로드시에 input element 에 focus 하나요?
-33. state의 object 를 update 할 수 있는 방법은 무엇인가요?
-34. 어떻게 매 초 마다 component 를 업데이트 하나요?
+1. [Virtual DOM이란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q1-virtual-dom%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+2. [Virtual DOM의 동작방식에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q2-virtual-dom%EC%9D%98-%EB%8F%99%EC%9E%91%EB%B0%A9%EC%8B%9D%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+3. [React.JS란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q3-reactjs%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+4. [React의 장점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q4-react%EC%9D%98-%EC%9E%A5%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+5. [React에서 컴포넌트를 어떻게 생성하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q5-react%EC%97%90%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%83%9D%EC%84%B1%ED%95%98%EB%82%98%EC%9A%94)
+6. [왜 Component의 이름은 대문자로 표기해야 하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q6-%EC%99%9C-component%EC%9D%98-%EC%9D%B4%EB%A6%84%EC%9D%80-%EB%8C%80%EB%AC%B8%EC%9E%90%EB%A1%9C-%ED%91%9C%EA%B8%B0%ED%95%B4%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94)
+7. [React에서 `elemen`t와 `component`의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q7-react%EC%97%90%EC%84%9C-element%EC%99%80-component%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+8. [state와 props의 정의와 차이점에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q8-state%EC%99%80-props%EC%9D%98-%EC%A0%95%EC%9D%98%EC%99%80-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+9. [state를 직접 업데이트하면 안되는 이유는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q9-state%EB%A5%BC-%EC%A7%81%EC%A0%91-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%ED%95%98%EB%A9%B4-%EC%95%88%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+10. [setState에서 callback의 역할은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q10-setstate%EC%97%90%EC%84%9C-callback%EC%9D%98-%EC%97%AD%ED%95%A0%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+11. [this를 바인딩하는 방법은 어떤 것들이 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q11-this%EB%A5%BC-%EB%B0%94%EC%9D%B8%EB%94%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80-%EC%96%B4%EB%96%A4-%EA%B2%83%EB%93%A4%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
+12. [ref의 용도는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q12-ref%EC%9D%98-%EC%9A%A9%EB%8F%84%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+13. [`forwardRef`란 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q13-forwardref%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+14. [controlled component와 uncontrolled component 에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q14-controlled-component%EC%99%80-uncontrolled-component-%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+15. [createElement와 cloneElement의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q15-createelement%EC%99%80-cloneelement%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+16. [React에서 Lifting State Up은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q16-react%EC%97%90%EC%84%9C-lifting-state-up%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+17. [라이프 사이클 단계와 메소드에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q17-%EB%9D%BC%EC%9D%B4%ED%94%84-%EC%82%AC%EC%9D%B4%ED%81%B4-%EB%8B%A8%EA%B3%84%EC%99%80-%EB%A9%94%EC%86%8C%EB%93%9C%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+18. [props argument와 함께 super constructor를 사용하는 목적은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q18-props-argument%EC%99%80-%ED%95%A8%EA%BB%98-super-constructor%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+19. [`<Fragement>`는 무엇이고 장점에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q19-fragement%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%9E%A5%EC%A0%90%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+20. [componentWillMount에서 setState를 사용하는게 좋나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q20-componentwillmount%EC%97%90%EC%84%9C-setstate%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EA%B2%8C-%EC%A2%8B%EB%82%98%EC%9A%94)
+21. [React에서 context는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q21-react%EC%97%90%EC%84%9C-context%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+22. [React에서 `portal`은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q22-react%EC%97%90%EC%84%9C-portals%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+23. [CRA는 무엇이고 사용함으로써 이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q23-cra%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%A8%EC%9C%BC%EB%A1%9C%EC%8D%A8-%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+24. [Switching Component란 무엇인가요?]()https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q24-switching-component%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94
+25. [React Fiber란 무엇이고 주요 목표에 대해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q24-switching-component%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+26. [list에서 `key`를 사용했을 때의 이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q26-list-%EC%97%90%EC%84%9C-key%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%96%88%EC%9D%84-%EB%95%8C%EC%9D%98-%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+27. [React DOM의 `render()` 메서드의 목적은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q27-react-dom%EC%9D%98-render%EB%A9%94%EC%84%9C%EB%93%9C%EC%9D%98-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+28. [constructor에서 setState를 사용하면 무슨일이 생기나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q28-constructor%EC%97%90%EC%84%9C-setstate%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EB%AC%B4%EC%8A%A8%EC%9D%BC%EC%9D%B4-%EC%83%9D%EA%B8%B0%EB%82%98%EC%9A%94)
+29. [조건에 따른 component 렌더링은 어떻게 해야하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q29-%EC%A1%B0%EA%B1%B4%EC%97%90-%EB%94%B0%EB%A5%B8-component-%EB%A0%8C%EB%8D%94%EB%A7%81%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC%ED%95%98%EB%82%98%EC%9A%94)
+30. [Server Side Rendering(SSR) 을 어떻게 구현하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q30-server-side-renderingssr-%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B5%AC%ED%98%84%ED%95%98%EB%82%98%EC%9A%94)
+31. [왜 Reacat에서 props를 update 할 수 없나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q31-%EC%99%9C-reacat%EC%97%90%EC%84%9C-props%EB%A5%BC-update-%ED%95%A0-%EC%88%98-%EC%97%86%EB%82%98%EC%9A%94)
+32. [어떻게 페이지 로드시에 input element 에 focus 하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q32-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A1%9C%EB%93%9C%EC%8B%9C%EC%97%90-input-element-%EC%97%90-focus-%ED%95%98%EB%82%98%EC%9A%94)
+33. [state의 object 를 update 할 수 있는 방법은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q33-state%EC%9D%98-object-%EB%A5%BC-update-%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+34. [어떻게 매 초 마다 component 를 업데이트 하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux#q34-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%A7%A4-%EC%B4%88-%EB%A7%88%EB%8B%A4-component-%EB%A5%BC-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%95%98%EB%82%98%EC%9A%94)
 
 ## 질문 및 답변
 
@@ -538,7 +538,7 @@ const todoItems = todos.map((todo, index) => <li key={index}>{todo.text}</li>);
 
 - 성능에 부정적인 영향을 미치고 component state에 문제가 발생할 수 있습니다.
 
-list를 별도의 component로 뽑아 사용하는 경우 li 태그 대신 list component 요소에 key를 적용하세요
+list를 별도의 component로 뽑아 사용하는 경우 `<li>`태그 대신 list component 요소에 key를 적용해야 합니다.
 
 </details>
 
