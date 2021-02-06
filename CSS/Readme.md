@@ -34,6 +34,7 @@
 30. 새로운 CSS Flexbox 혹은 Grid 스펙을 사용해 보신 적 있나요?
 31. 반응형(Responsive) 디자인은 적응형(Adaptive) 디자인과 어떤 차이점이 있나요?
 32. 절대 좌표대신 `translate()` 혹은 반대로 사용하는 이유가 있나요? 있다면 이유에 관해서 설명해주세요.
+33. Flash of Unstyled Content에 관해 설명해주세요. 또 FOUC를 피하기 위해선 어떻게 해야 하나요?
 
 ## 질문과 답변
 
@@ -609,5 +610,16 @@ Bootstrap, MaterialUI를 사용해본 적이 있습니다.
 `translate()`는 다른 요소에 영향을 끼치지 않기 때문에 reflow, repainting이 발생하지 않습니다. 또한 GPU를 사용합니다.
 
 그러므로 애니메이션의 경우에는 translate()를 사용해야 성능에 좋습니다.
+
+</details>
+
+### Q32. Flash of Unstyled Content에 관해 설명해주세요. 또 FOUC를 피하기 위해선 어떻게 해야 하나요?
+
+<details>
+<summary>Answer</summary>
+
+FOUC는 외부의 CSS가 불러오기 전에 잠시 스타일이 적용되지 않은 웹 페이지가 나타나는 현상입니다.
+
+`<link>` 태그를 `<head></head>`안에 포함시키고, @import의 사용을 자제해야 합니다.
 
 </details>
