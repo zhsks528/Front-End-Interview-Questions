@@ -9,15 +9,14 @@
 1. 공통질문
 2. [운영체제](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/OS)
 3. 데이터베이스
-4. 네트워크
+4. [네트워크](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/Network)
 5. [HTML](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/HTML)
 6. [CSS](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS)
 7. [Javascript](https://github.com/zhsks528/Front-End-Interview-Questions/blob/master/Javascript/Javascript.md)
 8. [React & Redux](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/React%26Redux)
-9. Django
-10. Node
-11. MongoDB
-12. Project
+9. Node
+10. MongoDB
+11. Project
 
 ## 참조
 
