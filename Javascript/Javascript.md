@@ -68,8 +68,10 @@
 
 이벤트 위임은 이벤트 버블링 특성을 이용하여 이벤트 리스너를 하위요소에 추가하는 대신 상위요소에 추가하는 기법입니다.
 
-이벤트 위임의 장점으로는 새 요소에 대해 이벤트를 바인딩할 필요가 없습니다.
-상위 요소 하나의 단일 핸들러만 필요하기 때문에 메모리 사용공간이 줄어듭니다.
+이벤트 위임의 장점은 아래와 같습니다.
+
+1. 새 요소에 대해 이벤트를 바인딩할 필요가 없습니다.
+2. 상위 요소 하나의 단일 핸들러만 필요하기 때문에 메모리 사용공간이 줄어듭니다.
 
 </details>
 
@@ -78,7 +80,7 @@
 <details>
 <summary>Answer</summary>
 
-이벤트 버블링은 특정 요소에서 이벤트가 발생했을 때 해당 이벤트가 상위의 요소들로 전달되어가는 특성입니다.
+이벤트 버블링은 **특정 요소에서 이벤트가 발생했을 때 해당 이벤트가 상위의 요소들로 전달되어가는 특성**입니다.
 
 ```javascript
 // 1.
@@ -95,7 +97,7 @@ addEventListener(type, listener, false);
 <details>
 <summary>Answer</summary>
 
-이벤트 캡처링은 이벤트 버블링과 반대로 최상위 요소에서 이벤트가 발생한 태그를 탐색하는 특성입니다.
+이벤트 캡처링은 이벤트 버블링과 반대로 **최상위 요소에서 이벤트가 발생한 요소를 탐색하는 특성**입니다.
 
 ```javascript
 // 1.
@@ -132,13 +134,22 @@ addEventListener(type, listener, true);
 
 <details>
 <summary>Answer</summary>
-두 가지 모두 ES6이전에 모듈 시스템을 구현하는 방식입니다.
 
-AMD는 비동기식으로 동작되며 CSR에 적합하다고 생각합니다.
+두 가지 모두 **ES6이전에 모듈 시스템을 구현하는 방식**입니다.
 
-CommonJS는 동기식으로 동작되며 SSR에 적합하다고 생각합니다.
+#### AMD
 
-ES6 이후로는 Import와 Export 키워드를 이용하여 모듈 시스템을 구현할 수 있습니다.
+1. 비동기식으로 동작됩니다.
+2. CSR에 적합합니다.
+
+#### CommonJS
+
+1. 동기식으로 동작됩니다.
+2. SSR에 적합합니다.
+
+#### ES6
+
+`Impor`t와 `Export` 키워드를 이용하여 모듈 시스템을 구현할 수 있습니다.
 
 </details>
 
@@ -153,25 +164,27 @@ javscript parser는 이 구문을 아래와 같이 해석합니다.
 
 ```javascript
 function foo(){} // 함수 선언
-() 				 // 함수 호출 <-- 호출할 함수의 이름이 지정되지 않았다.
+() // 함수 호출 <-- 호출할 함수의 이름이 지정되지 않았다.
 
 // error : Uncaught SyntaxError: Unexpected token ')'
 ```
 
-IIFE로 만들기 위한 방법은 총 2가지가 있다.
+IIFE로 만들기 위한 방법은 총 2가지가 있습니다.
 
-```javascript
+```
 // 1
 (function foo() {
   console.log("IIFE 작동");
-})()(
-  // result : IIFE 작동
+})();
 
-  // 1
-  function foo() {
-    console.log("IIFE 작동");
-  }
-)();
+// result : IIFE 작동
+```
+
+```
+// 2
+(function foo() {
+  console.log("IIFE 작동");
+})();
 
 // result : IIFE 작동
 ```
@@ -213,7 +226,7 @@ console.log(foo == undefined); // true. 옳지않습니다. 이렇게 사용하�
 
 `undefined`와 `null`의 상태를 확인할 때에는 완전 항등 연산자(===)를 사용하여 확인합니다.
 
-저는 주로 ESLinter를 사용하여 `undeclared` 변수를 참조하는지 확인합니다.
+저는 주로 **ESLinter**를 사용하여 `undeclared` 변수를 참조하는지 확인합니다.
 
 </details>
 
@@ -261,7 +274,7 @@ console.log(inner()); // 20
 
 **Curying**은 둘 이상의 매개 변수가 있는 함수가 여러 함수로 분리되는 문법입니다.
 
-이 문법을 사용함으로써 장점은 2가지 정도가 있습니다.
+이 문법을 사용함으로써 장점은 2가지가 있습니다.
 
 1. 함수의 실행을 마지막 매개 변수가 주어질 때까지 미룰 수 있습니다.
 2. 특정 값을 고정한 채 함수 재활용을 할 수 있습니다.
@@ -317,9 +330,7 @@ console.log(double); // undefined
 
 ```javascript
 const array = [1, 2, 3, 4, 5];
-const double = array.map((num) => {
-  return num * 2;
-});
+const double = array.map((num) => num * 2);
 
 console.log(double); // [2,4,6,8,10]
 ```
@@ -470,7 +481,7 @@ document.write()는 document.open()에 의해 열린 문서 스트림에 텍스�
 <details>
 <summary>Answer</summary>
 
-기능 검출(Feature detection)
+#### 1. 기능 검출(Feature detection)
 
 브라우저가 특정 기능을 지원하는지에 따라 다른 코드를 실행하도록 하여, 일부 브라우저에서 항상 오류 대신 무언가 작동하도록 합니다.
 
@@ -484,7 +495,7 @@ if ("geolocation" in navigator) {
 }
 ```
 
-기능 추론(Feature inference)
+#### 2. 기능 추론(Feature inference)
 
 기능 검출과 마찬가지로 기능이 존재하는지 확인한다. 다만, A기능을 지원하면 B기능도 지원할 것이라는 추론 바탕입니다. 추론이 바탕이기 때문에 권장되지 않습니다.
 
@@ -649,6 +660,7 @@ console.log(input.value); // Hello World!
 가장 큰 차이점은 **실행 순서**입니다.
 
 `load` 이벤트는 모든 리소스(스타일시트, 이미지 등)가 로딩되어야 실행됩니다.
+
 `DOMContentLoaded` 이벤트는 스타일시트, 이미지 등 리소스를 기다리지 않으며, DOM이 생성된 후에 실행됩니다.
 
 </details>
@@ -1075,7 +1087,9 @@ var foo = function () {
 <summary>Answer</summary>
 
 주요 차이점은 **상속을 사용할 때**입니다.
+
 ES5에서는 `prototype`을 이용하여 상속 관계를 형성합니다.
+
 ES6에서는 `class`와 `extends`를 사용하여 상속 관계를 형성합니다.
 
 ```javascript
@@ -1308,8 +1322,7 @@ testRest(1, 2, 3, 4, 5);
 
 파일 간에 코드를 공유하려면 자바스크립트 환경에 따른 `모듈 시스템`을 구축하면 됩니다.
 
-모듈 시스템 구축방법으로는 AMD, CommonJS, ES6 (import, export) 등
-이 있습니다.
+모듈 시스템 구축방법으로는 AMD, CommonJS, ES6 (import, export) 등이 있습니다.
 
 </details>
 
