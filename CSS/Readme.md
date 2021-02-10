@@ -2,39 +2,39 @@
 
 ## 목차
 
-1. class와 id의 차이점에 관해서 설명해주세요.
-2. Reset.css과 Normalize.css의 차이점은 무엇인가요? 당신은 무엇을 선택할 것이며, 그 이유는 무엇인가요?
-3. `float`가 어떻게 동작하는지 설명해주세요.
-4. `z-index`와 스택 컨텍스트(stacking context)가 어떻게 형성되는지 설명하세요.
-5. BFC(Block Formatting Context)에 관해 설명해주세요
-6. 클리어링(Clearing) 기술에는 어떤 것들이 있으며, 어떨 때 어떻게 사용하는 것이 적절한지 설명하세요.
-7. CSS 스프라이트(CSS Sprites)를 설명하고, 페이지나 사이트를 어떻게 향상하는지 설명하세요.
-8. Image Replacement를 사용해야 할 때, 선호하는 기술과 언제 사용하는지를 설명해주세요.
-9. 브라우저 스펙 차이에 따른 스타일링 이슈를 수정하기 위해서 어떻게 접근하나요?
-10. 기능이 제약된 브라우저를 위해서 어떤 방식으로 페이지를 만드나요?
-11. 시각적으로 숨기는(그리고 스크린 리더에서만 사용할 수 있게 만드는) 다양한 방법은 무엇인가요?
-12. 그리드 시스템(Grid system)을 사용한 적이 있나요? 있다면 어떠한 것을 선호하나요?
-13. 미디어 쿼리(media queries)를 사용한 적이 있나요? 혹은 모바일에 맞는 layout과 CSS를 사용한 적이 있나요?
-14. 미디어 쿼리 속성의 예를 들어줄 수 있나요?
-15. SVG를 스타일링하는데 익숙하신가요?
-16. 인쇄하기 위해 웹페이지를 어떻게 최적화 하나요?
-17. 효율적인 CSS를 작성하기 위한 "비법(gotchas)"은 어떤 게 있나요?
-18. CSS 전처리(CSS preprocessors)를 사용해보셨나요?
-19. 그렇다면, 사용 경험에 기반을 둬 좋았던 점과 나빴던 점을 설명해주세요.
-20. 페이지에서 표준 폰트가 아닌 폰트 디자인을 사용할 때 어떤 방식으로 처리하시나요? (웹폰트를 제외하고)
-21. CSS 선택자가 어떠한 원리로 동작하는지 설명해주세요.
-22. pseudo-elements에 관해서 설명하고 어디에서 사용되는지 이야기해보세요.
-23. box model에 관해 설명하고 브라우저에서 어떻게 동작하는지 설명해주세요.
-24. `* { box-sizing: border-box; }`은 무엇이고 사용했을때 이점은 무엇인가요?
-25. 기억나는 `display` 속성에 대한 값들을 나열해보세요.
-26. `inline`과 `inline-block`의 차이점은 무엇인가요?
-27. 요소를 배치하는 방법(relative, fixed, absolute, static) 간의 차이는 무엇인가요?
-28. CSS에서 'C’는 Cascading을 의미합니다. Cascading에 관해서 설명해주세요. 또 cascading system의 장점은 무엇인가요?
-29. CSS framework를 사용해본 적이 있으신가요? 실무에서 사용해보았다면 어떤 이점이 있었나요?
-30. 새로운 CSS Flexbox 혹은 Grid 스펙을 사용해 보신 적 있나요?
-31. 반응형(Responsive) 디자인은 적응형(Adaptive) 디자인과 어떤 차이점이 있나요?
-32. 절대 좌표대신 `translate()` 혹은 반대로 사용하는 이유가 있나요? 있다면 이유에 관해서 설명해주세요.
-33. Flash of Unstyled Content에 관해 설명해주세요. 또 FOUC를 피하기 위해선 어떻게 해야 하나요?
+1. [class와 id의 차이점에 관해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q1-class%EC%99%80-id%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%97%90-%EA%B4%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+2. [Reset.css과 Normalize.css의 차이점은 무엇인가요? 당신은 무엇을 선택할 것이며, 그 이유는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q2-resetcss%EA%B3%BC-normalizecss%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94-%EB%8B%B9%EC%8B%A0%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%84-%EC%84%A0%ED%83%9D%ED%95%A0-%EA%B2%83%EC%9D%B4%EB%A9%B0-%EA%B7%B8-%EC%9D%B4%EC%9C%A0%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+3. [`float`가 어떻게 동작하는지 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q3-float%EA%B0%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+4. [`z-index`와 스택 컨텍스트(stacking context)가 어떻게 형성되는지 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q4-z-index%EC%99%80-%EC%8A%A4%ED%83%9D-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8stacking-context%EA%B0%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%98%95%EC%84%B1%EB%90%98%EB%8A%94%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+5. [BFC(Block Formatting Context)에 관해 설명해주세요](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q5-bfcblock-formatting-context%EC%97%90-%EA%B4%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+6. [클리어링(Clearing) 기술에는 어떤 것들이 있으며, 어떨 때 어떻게 사용하는 것이 적절한지 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q6-%ED%81%B4%EB%A6%AC%EC%96%B4%EB%A7%81clearing-%EA%B8%B0%EC%88%A0%EC%97%90%EB%8A%94-%EC%96%B4%EB%96%A4-%EA%B2%83%EB%93%A4%EC%9D%B4-%EC%9E%88%EC%9C%BC%EB%A9%B0-%EC%96%B4%EB%96%A8-%EB%95%8C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%B4-%EC%A0%81%EC%A0%88%ED%95%9C%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+7. [CSS 스프라이트(CSS Sprites)를 설명하고, 페이지나 사이트를 어떻게 향상하는지 설명하세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q7-css-%EC%8A%A4%ED%94%84%EB%9D%BC%EC%9D%B4%ED%8A%B8css-sprites%EB%A5%BC-%EC%84%A4%EB%AA%85%ED%95%98%EA%B3%A0-%ED%8E%98%EC%9D%B4%EC%A7%80%EB%82%98-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%96%A5%EC%83%81%ED%95%98%EB%8A%94%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%98%EC%84%B8%EC%9A%94)
+8. [Image Replacement를 사용해야 할 때, 선호하는 기술과 언제 사용하는지를 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q8-image-replacement%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%95%BC-%ED%95%A0-%EB%95%8C-%EC%84%A0%ED%98%B8%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0%EA%B3%BC-%EC%96%B8%EC%A0%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EC%A7%80%EB%A5%BC-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+9. [브라우저 스펙 차이에 따른 스타일링 이슈를 수정하기 위해서 어떻게 접근하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%8A%A4%ED%8E%99-%EC%B0%A8%EC%9D%B4%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81-%EC%9D%B4%EC%8A%88%EB%A5%BC-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%B4%EC%84%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A0%91%EA%B7%BC%ED%95%98%EB%82%98%EC%9A%94)
+10. [기능이 제약된 브라우저를 위해서 어떤 방식으로 페이지를 만드나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%8A%A4%ED%8E%99-%EC%B0%A8%EC%9D%B4%EC%97%90-%EB%94%B0%EB%A5%B8-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81-%EC%9D%B4%EC%8A%88%EB%A5%BC-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%B4%EC%84%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%A0%91%EA%B7%BC%ED%95%98%EB%82%98%EC%9A%94)
+11. [시각적으로 숨기는(그리고 스크린 리더에서만 사용할 수 있게 만드는) 다양한 방법은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q11-%EC%8B%9C%EA%B0%81%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%88%A8%EA%B8%B0%EB%8A%94%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8A%A4%ED%81%AC%EB%A6%B0-%EB%A6%AC%EB%8D%94%EC%97%90%EC%84%9C%EB%A7%8C-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%8B%A4%EC%96%91%ED%95%9C-%EB%B0%A9%EB%B2%95%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+12. [그리드 시스템(Grid system)을 사용한 적이 있나요? 있다면 어떠한 것을 선호하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q12-%EA%B7%B8%EB%A6%AC%EB%93%9C-%EC%8B%9C%EC%8A%A4%ED%85%9Cgrid-system%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%A0%81%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%96%B4%EB%96%A0%ED%95%9C-%EA%B2%83%EC%9D%84-%EC%84%A0%ED%98%B8%ED%95%98%EB%82%98%EC%9A%94)
+13. [미디어 쿼리(media queries)를 사용한 적이 있나요? 혹은 모바일에 맞는 layout과 CSS를 사용한 적이 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q13-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BF%BC%EB%A6%ACmedia-queries%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%A0%81%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94-%ED%98%B9%EC%9D%80-%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%97%90-%EB%A7%9E%EB%8A%94-layout%EA%B3%BC-css%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-%EC%A0%81%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
+14. [미디어 쿼리 속성의 예를 들어줄 수 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q14-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BF%BC%EB%A6%AC-%EC%86%8D%EC%84%B1%EC%9D%98-%EC%98%88%EB%A5%BC-%EB%93%A4%EC%96%B4%EC%A4%84-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94)
+15. [SVG를 스타일링하는데 익숙하신가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q15-svg%EB%A5%BC-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81%ED%95%98%EB%8A%94%EB%8D%B0-%EC%9D%B5%EC%88%99%ED%95%98%EC%8B%A0%EA%B0%80%EC%9A%94)
+16. [인쇄하기 위해 웹페이지를 어떻게 최적화 하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q16-%EC%9D%B8%EC%87%84%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%B4-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%B5%9C%EC%A0%81%ED%99%94-%ED%95%98%EB%82%98%EC%9A%94)
+17. [효율적인 CSS를 작성하기 위한 "비법(gotchas)"은 어떤 게 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q17-%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8-css%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EB%B9%84%EB%B2%95gotchas%EC%9D%80-%EC%96%B4%EB%96%A4-%EA%B2%8C-%EC%9E%88%EB%82%98%EC%9A%94)
+18. [CSS 전처리(CSS preprocessors)를 사용해보셨나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q18-css-%EC%A0%84%EC%B2%98%EB%A6%ACcss-preprocessors%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%85%A8%EB%82%98%EC%9A%94)
+19. [그렇다면, 사용 경험에 기반을 둬 좋았던 점과 나빴던 점을 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q19-%EA%B7%B8%EB%A0%87%EB%8B%A4%EB%A9%B4-%EC%82%AC%EC%9A%A9-%EA%B2%BD%ED%97%98%EC%97%90-%EA%B8%B0%EB%B0%98%EC%9D%84-%EB%91%AC-%EC%A2%8B%EC%95%98%EB%8D%98-%EC%A0%90%EA%B3%BC-%EB%82%98%EB%B9%B4%EB%8D%98-%EC%A0%90%EC%9D%84-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+20. [페이지에서 표준 폰트가 아닌 폰트 디자인을 사용할 때 어떤 방식으로 처리하시나요? (웹폰트를 제외하고)](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q20-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%97%90%EC%84%9C-%ED%91%9C%EC%A4%80-%ED%8F%B0%ED%8A%B8%EA%B0%80-%EC%95%84%EB%8B%8C-%ED%8F%B0%ED%8A%B8-%EB%94%94%EC%9E%90%EC%9D%B8%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0-%EB%95%8C-%EC%96%B4%EB%96%A4-%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EC%B2%98%EB%A6%AC%ED%95%98%EC%8B%9C%EB%82%98%EC%9A%94-%EC%9B%B9%ED%8F%B0%ED%8A%B8%EB%A5%BC-%EC%A0%9C%EC%99%B8%ED%95%98%EA%B3%A0)
+21. [CSS 선택자가 어떠한 원리로 동작하는지 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q21-css-%EC%84%A0%ED%83%9D%EC%9E%90%EA%B0%80-%EC%96%B4%EB%96%A0%ED%95%9C-%EC%9B%90%EB%A6%AC%EB%A1%9C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+22. [pseudo-elements에 관해서 설명하고 어디에서 사용되는지 이야기해보세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q21-css-%EC%84%A0%ED%83%9D%EC%9E%90%EA%B0%80-%EC%96%B4%EB%96%A0%ED%95%9C-%EC%9B%90%EB%A6%AC%EB%A1%9C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+23. [box model에 관해 설명하고 브라우저에서 어떻게 동작하는지 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q23-box-model%EC%97%90-%EA%B4%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%98%EA%B3%A0-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%97%90%EC%84%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EC%A7%80-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+24. [`* { box-sizing: border-box; }`은 무엇이고 사용했을때 이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q24---box-sizing-border-box-%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%96%88%EC%9D%84%EB%95%8C-%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+25. [기억나는 `display` 속성에 대한 값들을 나열해보세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q25-%EA%B8%B0%EC%96%B5%EB%82%98%EB%8A%94-display-%EC%86%8D%EC%84%B1%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%92%EB%93%A4%EC%9D%84-%EB%82%98%EC%97%B4%ED%95%B4%EB%B3%B4%EC%84%B8%EC%9A%94)
+26. [`inline`과 `inline-block`의 차이점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q26-inline%EA%B3%BC-inline-block%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+27. [요소를 배치하는 방법(relative, fixed, absolute, static) 간의 차이는 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q27-%EC%9A%94%EC%86%8C%EB%A5%BC-%EB%B0%B0%EC%B9%98%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95relative-fixed-absolute-static-%EA%B0%84%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+28. [CSS에서 'C’는 Cascading을 의미합니다. Cascading에 관해서 설명해주세요. 또 cascading system의 장점은 무엇인가요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q28-css%EC%97%90%EC%84%9C-c%EB%8A%94-cascading%EC%9D%84-%EC%9D%98%EB%AF%B8%ED%95%A9%EB%8B%88%EB%8B%A4-cascading%EC%97%90-%EA%B4%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94-%EB%98%90-cascading-system%EC%9D%98-%EC%9E%A5%EC%A0%90%EC%9D%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94)
+29. [CSS framework를 사용해본 적이 있으신가요? 실무에서 사용해보았다면 어떤 이점이 있었나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q29-css-framework%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B8-%EC%A0%81%EC%9D%B4-%EC%9E%88%EC%9C%BC%EC%8B%A0%EA%B0%80%EC%9A%94-%EC%8B%A4%EB%AC%B4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%95%98%EB%8B%A4%EB%A9%B4-%EC%96%B4%EB%96%A4-%EC%9D%B4%EC%A0%90%EC%9D%B4-%EC%9E%88%EC%97%88%EB%82%98%EC%9A%94)
+30. [새로운 CSS Flexbox 혹은 Grid 스펙을 사용해 보신 적 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q30-%EC%83%88%EB%A1%9C%EC%9A%B4-css-flexbox-%ED%98%B9%EC%9D%80-grid-%EC%8A%A4%ED%8E%99%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%B4-%EB%B3%B4%EC%8B%A0-%EC%A0%81-%EC%9E%88%EB%82%98%EC%9A%94)
+31. [반응형(Responsive) 디자인은 적응형(Adaptive) 디자인과 어떤 차이점이 있나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#31-%EB%B0%98%EC%9D%91%ED%98%95responsive-%EB%94%94%EC%9E%90%EC%9D%B8%EC%9D%80-%EC%A0%81%EC%9D%91%ED%98%95adaptive-%EB%94%94%EC%9E%90%EC%9D%B8%EA%B3%BC-%EC%96%B4%EB%96%A4-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4-%EC%9E%88%EB%82%98%EC%9A%94)
+32. [절대 좌표대신 `translate()` 혹은 반대로 사용하는 이유가 있나요? 있다면 이유에 관해서 설명해주세요.](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q32-positionabsolute%EB%8C%80%EC%8B%A0-translate-%ED%98%B9%EC%9D%80-%EB%B0%98%EB%8C%80%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94-%EC%9E%88%EB%8B%A4%EB%A9%B4-%EC%9D%B4%EC%9C%A0%EC%97%90-%EA%B4%80%ED%95%B4%EC%84%9C-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94)
+33. [Flash of Unstyled Content에 관해 설명해주세요. 또 FOUC를 피하기 위해선 어떻게 해야 하나요?](https://github.com/zhsks528/Front-End-Interview-Questions/tree/master/CSS#q33-flash-of-unstyled-content%EC%97%90-%EA%B4%80%ED%95%B4-%EC%84%A4%EB%AA%85%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%94-%EB%98%90-fouc%EB%A5%BC-%ED%94%BC%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%B4%EC%84%A0-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EC%95%BC-%ED%95%98%EB%82%98%EC%9A%94)
 
 ## 질문과 답변
 
@@ -300,7 +300,15 @@ span {
 <details>
 <summary>Answer</summary>
 
-TODO...
+그리드 시스템(Grid System)이란 **페이지의 정보를 논리적이고 일관성 있는 질서와 구조로 디자인할 수 있도록 돕는 그래픽 디자인 시스템**을 말합니다.
+
+프로젝트를 진행할 때 **12 그리드 시스템**을 적용해 본 경험이 있습니다.
+
+그리드 시스템의 역할과 장점은 아래와 같습니다.
+
+1. 그리드 시스템으로 더 좋은 정보 전달 및 디자인 구조를 만들 수 있습니다.
+2. 디자인 위치에 대해 적절한 지침을 내려줍니다.
+3. 가독성과 주목성을 향상시킬 수 있습니다.
 
 </details>
 
@@ -408,7 +416,7 @@ section div span {
 
 #### 3. 아이디 선택자를 사용하지 않습니다.
 
-ID는 하나의 HTML 파일에 **유일하게 존재해야 하는 값**입니다. ID 선택자를 사용한 다는 것은 그 스타일을 한 요소에만 사용하게 된다는 것을 의미하게 됩니다. 이러한 구조는 스타일 규칙의 재 사용이 불가능하게 만들어 CSS 파일 사이즈를 크게 만들고, 유지 보수와 확장성에 불편함을 가져오게 됩니다.
+ID는 하나의 HTML 파일에 **유일하게 존재해야 하는 값**입니다. ID 선택자를 사용한다는 것은 그 스타일을 한 요소에만 사용하게 된다는 것을 의미하게 됩니다. 이러한 구조는 스타일 규칙의 재 사용이 불가능하게 만들어 CSS 파일 사이즈를 크게 만들고, 유지 보수와 확장성에 불편함을 가져오게 됩니다.
 
 ```css
 /* bad */
@@ -561,9 +569,9 @@ inline-block은 block과 마찬가지로 `width`, `height` 속성이 적용되�
 <details>
 <summary>Answer</summary>
 
-Cascading은 계단모양의 폭포를 의미하며 CSS에서 스타일 시트의 우선순위를 지정하는 방식이 폭포수와 닮아 붙여진 의미 입니다.
+Cascading은 계단모양의 폭포를 의미하며 **CSS에서 스타일 시트의 우선순위를 지정하는 방식이 폭포수와 닮아 붙여진 의미**입니다.
 
-cascading system을 사용하였을 때의 장점은 HTML Element마다 일일이 스타일을 지정하지 않아도 되므로 렌더링 속도와 코드의 양을 줄여 성능 향상에 기여할 수 있습니다.
+cascading system을 사용하였을 때의 장점은 HTML Element마다 일일이 스타일을 지정하지 않아도 되므로 **렌더링 속도와 코드의 양을 줄여 성능 향상에 기여**할 수 있습니다.
 
 </details>
 
@@ -613,7 +621,7 @@ Bootstrap, MaterialUI를 사용해본 적이 있습니다.
 
 </details>
 
-### Q32. Flash of Unstyled Content에 관해 설명해주세요. 또 FOUC를 피하기 위해선 어떻게 해야 하나요?
+### Q33. Flash of Unstyled Content에 관해 설명해주세요. 또 FOUC를 피하기 위해선 어떻게 해야 하나요?
 
 <details>
 <summary>Answer</summary>
